@@ -38,4 +38,5 @@ int main() {
     delete[] B;
 
     return 0;
+
 }
