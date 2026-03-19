@@ -20,7 +20,7 @@ namespace UnitTest1
             double result_bottom = simpson_rule(function1, a, b, n);
             double area = result_top - result_bottom;
 
-            Assert::AreEqual(2.208, area, 0.01, L"Ошибка при n=10");
+            Assert::AreEqual(2.208, area, 0.01, L"ГЋЕ™ДЌГЎД™Е• ДЏД‘ДЌ n=10");
         }
 
         TEST_METHOD(TestMethod2)
@@ -33,7 +33,7 @@ namespace UnitTest1
             double result_bottom = simpson_rule(function1, a, b, n);
             double area = result_top - result_bottom;
 
-            Assert::AreEqual(2.208, area, 0.001, L"Ошибка при n=50");
+            Assert::AreEqual(2.208, area, 0.001, L"ГЋЕ™ДЌГЎД™Е• ДЏД‘ДЌ n=50");
         }
 
         TEST_METHOD(TestMethod3)
@@ -44,7 +44,7 @@ namespace UnitTest1
 
             double area = simpson_rule(diff, a, b, n);
 
-            Assert::AreEqual(2.208, area, 0.0001, L"Ошибка при n=100");
+            Assert::AreEqual(2.208, area, 0.0001, L"ГЋЕ™ДЌГЎД™Е• ДЏД‘ДЌ n=100");
         }
 
         TEST_METHOD(TestMethod4)
@@ -55,7 +55,7 @@ namespace UnitTest1
 
             double area = simpson_rule(diff, a, b, n);
 
-            Assert::AreEqual(2.20801, area, 0.00001, L"Ошибка при n=1000");
+            Assert::AreEqual(2.20801, area, 0.00001, L"ГЋЕ™ДЌГЎД™Е• ДЏД‘ДЌ n=1000");
         }
     };
 }
